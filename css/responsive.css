@@ -5,8 +5,9 @@
 }
 
 @media (max-width: 991px) {
-    header {
-        padding: 15px 0;
+    .banner-content {
+        max-width: calc(100% - 150px);
+        width: 100%;
     }
     .primary-menu-outer {
         position: fixed;
@@ -91,22 +92,20 @@
     .sub-title {
         font-size: 16px;
     }
-    /* banner ======== */
-    #Banner .carousel-control-prev,
-    #Banner .carousel-control-next {
-        width: 40px;
-        height: 40px;
-    }
     #BannerSlider .carousel-item img {
         height: 400px;
     }
-    .banner-content {
-        left: 50px;
-        max-width: calc(100% - 100px);
-        width: 100%;
+    #About .about-inner {
+        flex-wrap: wrap;
     }
-    #Gallery .gallery-content .gallery-body .single-gallery {
-        flex: 0 0 100%;
+    #About .about-inner .content {
+        width: 100%;
+        position: static;
+        transform: none;
+        order: 2;
+    }
+    #About .about-inner .img-box {
         max-width: 100%;
+        order: 1;
     }
 }

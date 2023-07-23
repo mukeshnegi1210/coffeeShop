@@ -83,6 +83,7 @@ header.fixed-header .primary-menu li a {
     padding: 15px;
     max-width: 767px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .banner-content h1 {
